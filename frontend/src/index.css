@@ -1,0 +1,98 @@
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+}
+
+.navbar-container {
+  background-color: brown;
+  color: white;
+  padding: 20px;
+}
+
+.navbar-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar-links a {
+  color: white;
+  padding-left: 10px;
+}
+
+.header-container {
+  display: flex;
+  align-items: flex-start;
+  background-color: purple;
+  color: white;
+  padding: 4px;
+}
+
+.main-area-container {
+  display: flex;
+  flex-direction: row;
+  flex: 1 0 auto;
+}
+
+.main-area-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.main-area-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.button-container {
+  padding: 10px;
+}
+
+.main-area-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
+  text-align: right;
+}
+
+.error-msg {
+  color: red;
+}
+
+.success-msg {
+  color: green;
+}
+.user-list {
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+.user-list td,
+.user-list th {
+  text-align: left;
+  border: 1px solid black;
+  padding: 4px;
+}
+
+.user-list .table-header-button {
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
